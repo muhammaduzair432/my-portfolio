@@ -21,7 +21,25 @@ document.addEventListener("DOMContentLoaded", () => {
     menuToggle.style.display = 'block';
   });
 
- 
+  // Show single pages
+  // let links = document.querySelectorAll('.nav-links a');
+  // let pages = document.querySelectorAll('.main-content, .about-me, .projects, .contact-section, footer');
+
+  // links.forEach(link => {
+  //   link.addEventListener('click', function (event) {
+  //     event.preventDefault();
+
+  //     // Hide all pages
+  //     pages.forEach(page => {
+  //       page.style.display = 'none';
+  //     });
+
+  //     // Show the target section
+  //     let target = this.getAttribute('data-section');
+  //     let targetElement = document.getElementById(target);
+  //     if (targetElement) {
+  //       targetElement.style.display = 'block';
+  //     }
 
   
 });
