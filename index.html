@@ -129,7 +129,8 @@
     <!-- contact me section -->
      <section class="contact-section" id="contact">
   <h2 class="contact-heading">Contact Me</h2>
-  <form class="contact-form">
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="dd07ad01-f931-40e0-90ea-1a9e6eff11ce"> 
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
